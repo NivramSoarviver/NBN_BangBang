@@ -70,6 +70,9 @@ task main()
 	tMotor wheelMotors[2] = {wheel1, wheel2};
 	wheel.motors = wheelMotors;
 
+while(true)
+{
 	setWheelPower(fly);
 	setWheelPower(wheel);
+}
 }
